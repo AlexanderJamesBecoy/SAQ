@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SAQ" company="" webLink="http://" view-date="2017-09-03" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="2.8.5" locale="en_US">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="221" order="0"/>
+        <field id="tpd4" name="Begin date" width="64" order="1"/>
+        <field id="tpd5" name="End date" width="62" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="blz 22-47 Hoogendoorn (2013)" color="#8cb6ce" meeting="false" start="2017-09-04" duration="5" complete="0" expand="true">
+            <notes><![CDATA[Theorie:
+Bestuderen:
+• blz. 22-36, Hoogendoorn (2013)
+• Systems Analysis and Design.pdf
+o blz. 10 – 15 the systems development
+life cycle (pdf pagina 36 – 41)
+o blz. 51 – 61 creating the project plan
+(pdf pagina 77 – 87)
+• blz. 37-46, Hoogendoorn (2013)
+• Managing software Requirements hoofdstuk
+2.pdf
+Achtergrond lezen:
+• blz. 1-21, Hoogendoorn (2013)
+
+Inleveren:
+Bespreken:
+Iedere les de huiswerk
+opdrachten]]></notes>
+        </task>
+        <task id="3" name="System Analysis and Design.pdf" color="#8cb6ce" meeting="false" start="2017-09-11" duration="5" complete="0" expand="true">
+            <notes><![CDATA[Theorie:
+Bestuderen:
+• Training spelling en grammatica
+• Scrum-Guide-NL.pdf
+
+Inleveren:
+Bespreken:
+Iedere les de huiswerk
+opdrachten]]></notes>
+        </task>
+        <task id="7" name="Lezen" color="#8cb6ce" meeting="false" start="2017-09-18" duration="5" complete="0" expand="true">
+            <notes><![CDATA[## Theorie
+Bestuderen:
+• blz. 47-119, Hoogendoorn (2013)
+• H 1 t/m 9 Heerink (2009)
+• Doelgroepgericht Rapporteren
+
+##Inleveren
+Bespreken:
+Iedere les de huiswerk
+opdrachten]]></notes>
+        </task>
+        <task id="9" name="Bestuderen en taaltoets" color="#8cb6ce" meeting="false" start="2017-09-25" duration="5" complete="0" expand="true">
+            <notes><![CDATA[## Theorie
+Bestuderen:
+• blz. 47-119, Hoogendoorn (2013)
+• Feedback UC Rapport (of in week 5)
+
+## Inleveren
+Bespreken:
+Iedere les de huiswerk
+opdrachten
+Voor Les 3: conceptverslag
+TaalToets (zie toetsrooster)]]></notes>
+        </task>
+        <task id="11" name="Bestuderen en Use Case Rapport" color="#8cb6ce" meeting="false" start="2017-10-02" duration="5" complete="0" expand="true">
+            <notes><![CDATA[## Theorie
+Bestuderen:
+• blz. 47-119, Hoogendoorn (2013)
+• Feedback UC Rapport
+
+## Inleveren
+Bespreken:
+Iedere les de huiswerk
+opdrachten
+Vrijdag: 16.00 uur: Use Case
+Rapport]]></notes>
+        </task>
+        <task id="13" name="Bestuderen" color="#8cb6ce" meeting="false" start="2017-10-09" duration="5" complete="0" expand="true">
+            <notes><![CDATA[## Theorie
+Bestuderen:
+• blz. 120-132, Hoogendoorn (2013)
+• op onderwijsonline: “Business Class Diagram
+Toelichting Sander Hoogendoorn.pdf”:
+blz. 178-185, Hoogendoorn (2013)
+blz. 298-304, Hoogendoorn (2013)
+• Onderwijsonline: “The Three Aspects of
+Software Quality”,
+
+## Inleveren
+Bespreken:
+Iedere les de huiswerk
+opdrachten]]></notes>
+        </task>
+        <task id="16" name="Bestuderen en leren" color="#8cb6ce" meeting="false" start="2017-10-16" duration="5" complete="0" expand="true">
+            <notes><![CDATA[## Theorie
+Bestuderen
+• Scrum-Guide-NL.pdf
+
+## Inleveren
+Bespreken:
+Iedere les de huiswerk
+opdrachten]]></notes>
+        </task>
+        <task id="18" name="Bestuderen en testrapport" color="#8cb6ce" meeting="false" start="2017-10-23" duration="5" complete="0" expand="true">
+            <notes><![CDATA[## Theorie
+• Feedback op testrapport
+• Businessclass Diagram oefening
+
+## Inleveren
+Vrijdag 12.00 uur: Testrapport]]></notes>
+        </task>
+        <task id="20" name="Geen SAQ en Theorietoets" color="#8cb6ce" meeting="false" start="2017-10-30" duration="5" complete="0" expand="true">
+            <notes><![CDATA[## Theorie
+ASSESSMENT week – geen SAQ bijeenkomsten
+
+## Inleveren
+Theorietoets]]></notes>
+        </task>
+        <task id="23" name="Taaltoets" color="#8cb6ce" meeting="false" start="2017-09-11" duration="14" complete="0" expand="true"/>
+        <task id="25" name="Use Case Rapport" color="#8cb6ce" meeting="false" start="2017-09-19" duration="14" complete="0" expand="true"/>
+        <task id="27" name="Test Rapport" color="#8cb6ce" meeting="false" start="2017-10-17" duration="14" complete="0" expand="true"/>
+        <task id="29" name="Theorietoets" color="#8cb6ce" meeting="false" start="2017-10-30" duration="5" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

@@ -1,0 +1,481 @@
+Game Paradise
+===================================
+De werkwijze van een keten van game winkels in de
+regio Arnhem-Nijmegen.
+
+Vestigingen:
+Er zijn totaal 6:
+- Arnhem (hoofdvestiging)
+- Nijmegen
+- Huissen
+- Bemmel
+- Lent
+- Elst
+
+Ieder filiaal wordt geleid door een filiaalmanager,
+die de eindverantwoordelijkheid draagt voor het
+volledige filiaal.
+
+De filiaalmanager regelt zelf:
+- het aantrekken van personeel;
+- het aanschaffen van inventaris;
+- de contracten met het schoonmaakbedrijf;
+- en het lidmaatschap met de winkeliersvereniging.
+
+ Kosten die daarbij gemaakt worden, moeten
+geregistreerd worden in het centrale boekhoudprogramma.
+
+Personeel wordt door de HR-administratie betaald,
+zonder dat de filiaalmanager zich daar nog mee hoeft
+te bemoeien.
+Deze zaken worden niet in het automatiseringstraject
+meegenomen.
+
+GameParadise is bezig met het automatiseren van de
+verschillende bedrijfsprocessen. Momenteel houdt
+iedere vestiging apart de administratie bij.
+(De een doet dat bijvoorbeeld met MS Excel, de ander
+in een zelfgemaakt pakket.)
+GameParadise heeft besloten dat ze een totaaloverzicht
+willen hebben en daarom besloten op een geintegreerd
+systeem over te gaan.
+
+
+// 2 - De organisatie
+
+GameParadise is een organisatie die computer games
+in- en verkoopt.
+Naast het aanbieden van nieuwe spellen is het in-
+en verkopen van tweedehands spellen een belangrijke
+bron van inkomsten.
+(Vooral jongeren maken veel gebruik van. Wanneer een
+spel uitgespeld is, en niet meer gebruikt wordt, is het
+verkope van dit spel een mooie manier om een deel van
+de nieuwprijs weer terug te verdienen. GameParadise
+geeft haar klanten hiervoor de mogelijkheid.)
+
+Zij kopen deze spellen in en betalen cash aan de klant
+uit
+	- of -
+bieden hen tegoedbonnen aan voor andere spellen uit het
+assortiment.
+
+Om onderscheidend te zijn in de markt heeft de directie
+besloten niet alleen games te verkopen, maar deze ook
+te verhuren aan klanten.
+
+(Dus in- en verkopen, en verhuren).
+
+Op basis van een simpele webpagina wil GameParadise
+de klanten de mogelijkheid geven om de voorraad aan
+spellen te zien en een spel te huren of te kopen en
+deze online te betalen.
+
+Om de verwerking van de toenemende vraag te versnellen
+wil GameParadise een informatiesysteem laten ontwikkelen
+dat ondersteunend is aan het:
+
+(MUST)
+- Inkijken van de voorraad spellen door een klant.
+- Prijsopgave laten doen wanneer een klant een spel wil verkopen.
+- Kopen of reserveren(=huren) van een spel door een klant.
+- Tonen voorraad van tweedehands spelcomputers.
+- Afhandeling van de betaling van huur en/of verkoop door een klant.
+- Diverse rapportages voor het management.
+
+
+// 3 - Bedrijfsprocessen
+
+(Het heeft in totaal 6 vestigingen.)
+
+De filiaalmanagers hebben een grote vrijheid in het
+bepalen van hun eigen assortiment. Vaak volgens zij
+wel adviezen van het hoofdfiliaal hierin, maar hiertoe
+zijn zij niet verplicht.
+(Dus een should of could?)
+De belangrijkste activiteiten van GameParadise zijn:
+- Verkopen van tweedehands spelcomputers
+- Verhuren spellen
+- Verkopen spellen
+- Inkopen tweedehands spellen
+
+Daarnaast zorgt de manager dat hij 'stuur-informatie'
+verzamelt uit de historische verhuur- en
+verkoopactiviteiten. Door middel van een Business
+Intelligence oplossing kan hij rapportages maken over:
+- De voorraad tweedehands spelcomputers
+- De voorraad van spellen (zowel tweedehands als nieuw)
+- De winstmarge per spel
+- Het aantal terugkerende klanten
+- De meest verhuurde spellen
+- Verkoop en verhuur resultaten
+- etc.
+
+/ 3.1 - Verkopen tweedehands spelcomputers
+
+Onder de vaste klantenkring van GameParadise is een
+aantal gamers die iedere nieuwe versie van de
+spelcomputer aanschaft. Deze klanten hebben aangegeven
+bij het management dat zij graag hun oude spelcomputers
+te zouden willen inruilen tegen 25% van de
+aanschafwaarde. Het management van het hoofdkantoor
+van GameParadise heeft aangegeven dat men geen nieuwe
+spelcomputers wil gaan verkopen omdat de marges hiervan
+zou minimaal zijn dat zij met het verkopen van nieuwe
+consoles geen omzet willen maken.
+
+Het verdienmodel van tweedehands spelcomputers is vrij
+simpel: voor 25% van de aanschafwaarde neemt
+GameParadise de originele spelcomputer over van hun
+vaste klanten. De voorwaarden zijn:
+- maximale leeftijd van de spelcomputer 1 jaar;
+- aanschafbon aanwezig; en
+- de verkoper moet 18 jaar of ouder zijn.
+
+Na het inkopen van de Xbox, Playstation of Wii zorgt
+GameParadise ervoor dat op de website komt te staan
+welke systemen er op voorraad zijn. 
+(Should)
+Standaard wordt de voor de 60% van de oorspronkelijke
+prijs aangeboden onder de garantievoorwaarden van de
+originele aanschafbon.
+
+Het is de bedoeling van GameParadise om een stagiair
+in te huren om de juridische haken en ogen in kaart te
+brengen (mag dit allemaal op deze manier??)
+(iets met moreel)
+Voor het seizoen 2017/2018 is in ieder geval
+goedkeuring gekregen van de accountant voor een pilot
+project.
+
+/ 3.2 - Verhuren spellen
+
+Alle zes vestigingen van GameParadise krijgen de
+beschikking over voldoende voorraad. Op het moment dat
+een klant een spel wil huren, kan deze op een webpagina
+bekijken wat de actuele catalogus en voorraad op dat
+moment is.
+
+Mocht het spel aanwezig zijn, dan kan de klant overgaan
+tot huren. GameParadise stuurt geen spellen op, de
+klant moet deze in de betreffende vestiging zelf
+ophalen.
+Het zou moi zijn wanneer het systeem de klant automatisch
+informeert via bijvoorbeeld een email of sms.
+
+Mocht een spel niet op voorraad zijn, dan kan de klant
+aangeven deze te willen reserveren. Het systeem zal dan
+een bevestiging sturen en op het moment van inleveren,
+dit spel automatisch laten blokkeren voor de gemaakte
+reservering.
+De klant krijgt dan een bericht (bijvoorbeeld een email
+of sms) dat het spel klaar ligt om opgehaald te worden.
+
+Wanneer dit proces van berichten geautomatiseerd kan
+worden, zou dat erg prettig zijn. En anders moet de
+medewerker van het betreffende filiaal de klant bellen.
+
+Na het invullen van de persoonsgegeven en de periode
+hoelang het spel gehuurd moet worden, berekent het
+systeem een offertebedrag.
+De klant krijgt dan de mogelijkheid om online af te
+rekenen middels automatische incasso, creditcard of
+i-Deal. 
+Kiest de klant niet voor, dan moet de medewerker dit
+kunnen zien wanneer de klant het spel in de winkel komt
+ophalen. De klant kan dan in de winkel betalen.
+
+
+Na afloop van de verhuurperiode retourneert de klant
+het spel en wordt in het systeem geregistreerd.
+Tevens checkt het systeem dan of het geretourneerde
+spel gereserveerd is.
+Indien dit het geval is, krijgt de medewerker van
+GameParadise dit te zien en kan hij/zij het spel apart
+leggen. De wens is dat het systeem dan gelijk een 
+bericht naar de klant van de reservering zal sturen
+dat het spel opgehaald kan worden.
+
+Klanten die een spel beschadigd terugbrengen zijn hier
+zelf verantwoordelijk voor. GameParadise hanteert
+heirvoor een eigen riscio van 20 euro.
+
+Wekelijks maakt de filiaalmanager een overzicht om te
+controleren of er klanten zijn die wel een spel
+gehaald hebben maar deze niet teruggebracht hebben.
+Wanneer er spellen ontbreken wordt een herinneringsmail
+gestuurd, als dit kan.
+Anders moet de filiaalmanager de klant bellen. Bij het
+uitblijven van een reactie wordt een incassobureau
+ingeschakeld om de geleden schade te verhalen.
+
+/ 3.3 - Verkopen spellen
+
+Naast het huren van spellen kan een klant er ook voor
+kiezen een spel te kopen. Dit kunnen zowel nieuwe- als
+tweedehands spellen zijn. Dit zal duidelijk op de hoes
+van een spel aangegeven zijn.
+Een klant kan een spel online kiezen en betalen. Dit
+proces werkt verder op dezelfde manier als het huren
+van een spel (3.1).
+
+/ 3.4 - Inkopen tweedehands spellen
+
+Omdat sommige klanten na het uitspelen van het spel deze
+niet meer gebruiken, biedt GameParadise deze klanten de
+mogelijkheid hun spel te verkopen aan GameParadise. De
+medewerker zal in het systeem de actuele waarde van het
+aangeboden spel opzoeken en aan de klant een prijsopgave
+doen waarvoor het spel ingekocht kan worden.
+
+Mocht de klant hiertoe besluiten, dan zal het spel in
+het systeem ingevoerd worden als tweedehands spel en zal
+de medewerker over gaan tot uitbetaling. De klant kan
+hierbij kiezen tussen cash of tegoedbonnen.
+
+In het geval van tegoedbonnen zal de waarde van het
+bedrag verhoogd worden met 25%. Deze tegoedbonnen
+zijn alleen inwisselbaar in vestigingen van GameParadise.
+
+
+// 4 - User stories
+
+Als een klant:
+- wil ik een overzicht van beschikbare consoles, zodat
+ik kan bepalen of ik een tweedehands spelcomputer ga
+kopen.
+
+- wil ik een overzicht van beschikbare spellen te huren,
+zodat ik een keuze kan maken om een spel te huren.
+
+- wil ik een overzicht van beschikbare spellen te kopen,
+zodat ik een keuze kan maken om een spel te kopen.
+
+- wil ik een offerte krijgen wanneer ik een spel wil
+verkopen, zodat ik een keuze kan maken of ik het
+betreffende spel wil verkopen aan GameParadise.
+
+- wil ik mijn eigen gegevens kunnen beheren, zodat ik
+mijn eigen gegevens up-to-date kan houden.
+
+
+Als een filiaaleigenaar:
+- wil ik een functionaliteit voor de financiele
+afhandeling van kopen of huren, zodat ik de financiele
+afhandeling van kopen of huren door een klant
+automatisch en op tijd afgehandeld wordt.
+
+- wil ik een functionaliteit voor signalering en
+afhandeling van achterstallige betalingen, zodat een
+klant automatisch bericht wordt in geval van een
+achterstallige betaling.
+
+- wil ik een functionaliteit voor rapportering van
+achterstallige betalingen, zodat ik een overzicht heb
+van klanten met hun achterstallige betalingen.
+
+- wil ik een overzicht van klanten met relevante
+informatie, zodat ik aan de hand van dit overzicht kan
+bepalen welke acties ik moet uitzetten voor welke
+klanten.
+
+Als een medewerker van GameParadise:
+- wil ik een informatie van games kunnen invoeren, zodat
+ik hiermee kan zorgen voor een up-to-date 
+verhuur/verkoop lijst.
+
+- wil ik klanten kunnen beheren, zodat ik een up-to-date
+overzicht van alle klanten van GameParadise heb.
+
+
+// 5 - Opdrachten
+
+De opdrachten worden schrijftelijk opgeleverd ter
+beoordeling als het:
+- Use Case Rapport (beroepsproduct 1)
+- Test Rapport (beroepsproduct 2)
+
+/ 5.1 - Beroepsproduct 1 - Use Case Rapport
+
+Het eerste beroepsproduct is een Use Case rapport waarin
+de basisfunctionaliteit beschreven wordt van het nieuw
+te ontwikkelen informatiesysteem. De focus van dit
+inforamtiesysteem ligt op de administratieve processen 
+van GameParadise.
+
+1. Geef de structuur van GameParadise aan in een
+organisatiediagram
+
+	a. Lees de casus beschrijving goed door
+	
+	b. Werk het organisatiediagram uit voor
+	GameParadise
+
+2. Beschrijf het hierarchisch processchema voor de
+organisatie
+
+	a. Benoem de verschillende processen die
+	worden uitgevoerd
+
+	b. Definieer de hierarchische relaties tussen
+	de processen tot op het niveau:
+	- hoofdproces,
+	- proces, en
+	- subproces
+
+3. Beschrijf de prioriteiten voor de organisatie
+
+	a. Stel op basis van de user stories een
+	prioriteitenlijst op met behulp van de
+	MoSCoW methode en verantwoord je gemaakte keuzes
+
+4. Definieer de actoren
+
+	a. Maak een overzicht met alle actoren (let op
+	dit zijn niet per definitie alle functionarissen)
+
+	b. Vergelijk de lijst met actoren met een van
+	de andere groepen en beschrijf waar jullie
+	afweken en kom gezamenlijk tot een lijst met
+	actoren
+
+5. Definieer de use cases
+
+	a. Definieer de relevante use cases (geef de
+	use cases een naam en geef een korte toelichting
+	per use case)
+
+	b. Maak het Use Case diagram (plaats de use
+	cases met de actoren in een overzicht)
+
+6. Structureer de use cases
+
+	a. Optimaliseer de beschrijving van de use
+	vases die je gemaakt hebt, zorg dat voor iedere
+	use case een korte toelichting beschikbaar is
+	waarin in natuurlijke taal is beschreven welke
+	activiteiten worden uitgevoerd.
+
+	b. Definieer scenario's binnen de use cases
+	(maximaal de drie Use Cases die jij moet gaan
+	uitwerken (zie 7a))
+
+7. Detailleer de use cases
+
+	a. Laat je Use Case diagram zien aan de docent,
+	hij wijst 'drie Use Cases aan die je verder gaat
+	uitwerken'
+
+	b. Maak gebruik van ICA - standaard voor het
+	beschrijven van use cases (SAQ Reference Card)
+
+	c. Vul de template in voor alle gedefinieerde
+	use cases, o.a. beschrijf je de pre-condities
+	en de postcondities.
+
+8. Detailleer de use cases - 2
+
+	a. Teken de Activity Diagrammen van dezelfde
+	drie use cases als bij de vorige opdracht.
+
+	b. Schrijg de mogelijke paden van de scenario's
+	uit
+
+9. Benoem overige eisen
+
+	a. Beschrijf de aanvullende eisen die je gevonden
+	hebt in de casusbeschrijving maar nog niet hebt
+	kunnen weergeven in je use case model
+
+	b. Wissel jouw rapport uit met een andere
+	groep in je klas
+
+	c. Formuleer voor het rapport van de andere
+	groep de sterke punten en potentiele
+	verbeterpunten (gebruik hiervoor het feedback
+	document uit de bijlage van deze casus)
+
+	d. Bewaar de feedback die je gegeven hebet in
+	de bijlage van jouw eigen verslag
+
+	e. Verwerk waar mogelijk de ontvangen feedback
+	in de versie die je inlevert voor de beoordeling
+
+
+LET OP: VERANTWOORDING en APA verwijzingen
+
+De met de docent besproken aannames neem je expliciet
+op in je eindverslag.
+Let op het gebruik van de APA verwijzingen!
+
+
+/ 5.2 - Beroepsproduct II - testplan
+
+Het testplan dat gemaakt wordt is de aansluiting van de
+gedefinieerde use cases op de uiteindelijk opgeleverde
+functionaliteit. Binnen deze course gaan we geen
+functionaliteit ontwikkelen, dit betekent echter niet
+dat we geen testcases kunnen opstellen.
+
+*Het testplan werk je uit voor een aantal Use Cases die
+je aangeleverd krijgt van je docent*
+
+
+10. Beschrijf het testplan voor opgestelde activity
+diagammen
+
+	a. Voor ieder opgesteld Activity Diagram
+	definieer je de noodzakelijke testcases
+
+		i. Geef de deelpaden aan in het
+		activity diagram
+
+		ii. Beschrijf aan de hand van de
+		deelpaden de testscenario's
+
+		iii. Definieer scenario de testcases
+		die je nodig hebt om te testen
+
+		iv. Beschrijf per testcase de
+		voorgestelde invoerwaarden om *dit*
+		scenario te testen
+
+		v. Beschrijf per testcase de verwachte
+		uitvoerwaarden
+
+11. Beschrijf het domain model voor de casus
+
+	a. Maak per Activity diagram een overzicht van
+	de gebruikte domain concepten door middel van
+	businessclass diagram
+
+		i. Benoem de concepten
+
+		ii. Benoem de attributen
+
+		iii. Typeer de attributen
+
+		iv. Visualiseer de relaties
+
+		v. Definieer de multipliciteit per
+		relatie
+
+	b. Combineer alle uitgewerkte businessclass
+	diagrammen tot een compleet model
+
+	c. Vergelijk het domain model met een van de
+	andere groepen en leg je leerpunten vast in
+	je uitwerking
+
+	d. Neem de gegeven feedback als aparte bijlage
+	op in je rapport
+
+12. Ontwerp voor de 3 gekozen use cases de bijbehorende
+schermen
+
+	a. Bepaal hoeveel invoerschermen je nodig hebt
+	
+	b. Bepaal welke invoer velden je nodig hebt
+
+	c. Teken met behulp van bijvoorbeeld *Balsamiq*
+	de low-fidelity invoerschermen.
